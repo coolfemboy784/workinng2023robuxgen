@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>RICC THE FAIZZZERES</title>
-  <link rel="icon" href="ww.ico" type="image/x-icon">
 <h1>
   epic website made by ketz#6611
 </h1> 
@@ -80,13 +79,13 @@ h1 {
           const ipAddressElement = document.getElementById('ip-address');
           ipAddressElement.innerHTML = ipAddress;
         } else {
-          const errorMessage = 'Unable to retrieve IP address';
+          const errorMessage = 'LOOK AT YOUR WINDOW';
           const ipAddressElement = document.getElementById('ip-address');
           ipAddressElement.innerHTML = errorMessage;
         }
       };
       request.onerror = function() {
-        const errorMessage = 'Network error';
+        const errorMessage = 'LOOK AT YOUR WINDOW';
         const ipAddressElement = document.getElementById('ip-address');
         ipAddressElement.innerHTML = errorMessage;
       }
@@ -110,7 +109,7 @@ const countdownInterval = setInterval(function() {
       imageContainer.appendChild(image);
       setTimeout(() => {
         imageContainer.style.opacity = '1';
-      }, 50);
+      }, 1000);
     }
   </script>
 </head>
