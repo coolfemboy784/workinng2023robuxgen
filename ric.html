@@ -103,9 +103,12 @@ h1 {
       }, 1000);
 
       const imageContainer = document.querySelector('.image-container');
-      setTimeout(function() {
+      const image = document.createElement('img');
+      image.src = 'alterna.jpg';
+      imageContainer.appendChild(image);
+      setTimeout(() => {
         imageContainer.style.opacity = '1';
-      }, 2000);
+      }, 1000);
     }
   </script>
 </head>
